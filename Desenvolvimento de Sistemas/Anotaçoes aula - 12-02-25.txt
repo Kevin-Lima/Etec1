@@ -1,0 +1,10 @@
+12/02/25
+
+sgbd = separa bancos de dados, tipo assim, eu tenho funcionarios entao eu priciso de um banco 
+de dados pra eles, e tenho mais um monte de banco. Entao esse sistema vai gerenciar um monte de 
+bancos de dados. Entao ele é um unico sistema que gerencia varios bancos de dados.
+
+quando for fazer um sistema e banco de dados para trabalharem juntos PRIMEIRO FAÇA O BANCO DE TADOS
+E BASEADO NELE FAZ O SISTEMA.
+
+twplas/ = são as informaçoes cadastradas em um banco de dados
