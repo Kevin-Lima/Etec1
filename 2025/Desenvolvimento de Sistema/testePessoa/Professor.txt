@@ -1,0 +1,10 @@
+
+package com.mycompany.testepessoa;
+
+public class Professor extends Pessoa {
+    String formacao;
+    
+     public void definiformacao(){
+        System.out.println("Analise e Desenvolvimento de Sistemas");
+    }
+}

@@ -1,0 +1,5 @@
+C:/xammp/htdocs/aulaphp/index.php
+
+http://localhost/aulaphp/index.php
+
+localhost/aulaphp/

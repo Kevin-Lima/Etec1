@@ -1,0 +1,14 @@
+mobile não usa banco de dados relacionais
+
+a diferença entre os sgbd's é a sintax e dependendo a aplicação
+
+local host = banco de dados e aplicação (site) rodando na mesma maquina
+
+apontadores = apontam para um registro (todos os dados de um usuario ou algo)
+
+Uma entidade pode ter ralacionamento sozinha, a entidade conzid(casal) pode um relacionamento com ela mesma
+
+Modelo Orientado a Objetos SGBDO: Membros - sao metodos
+
+Modelos de Dados = Descrição dos tipos de informações que serão armazenadas em um banco de dados
+ 

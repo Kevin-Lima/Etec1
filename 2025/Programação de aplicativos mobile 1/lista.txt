@@ -1,0 +1,9 @@
+fun main() {
+	val lista = mutableListOf(1,2,3,4)
+    println(lista)
+    lista.add(5)//adicionando um novo valor a lista
+    println(lista)
+}
+
+
+mutableListOf: com ele eu posso adicionar mais valores mesmo a lista sendo imutavel (val)

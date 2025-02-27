@@ -1,0 +1,22 @@
+fun EX6() {
+    val arrayint: Array<Int> = arrayOf(1, 2, 3, 4)
+    
+    // Percorrendo o array com o loop for
+    for (elemento in arrayint) {
+        println(elemento)
+    }
+}
+
+Como o for sabe que elemento é sobre os elementos do array?
+No loop for (elemento in arrayint), o Kotlin automaticamente interpreta que a variável elemento vai ser atribuída a cada valor presente no array arrayint por conta da estrutura da linguagem.
+
+Como funciona internamente?
+O Kotlin sabe que o in está relacionado à iteração sobre uma coleção, como um array, lista ou outro tipo de sequência.
+O in funciona como um iterador, ou seja, o Kotlin começa no primeiro item do array e, a cada ciclo do loop, ele pega o próximo valor e o coloca na variável elemento.
+A cada ciclo do for, a variável elemento vai receber um valor do array e o código dentro do loop será executado com esse valor.
+Internamente, o Kotlin usa uma estrutura chamada Iterator para percorrer os itens da coleção. O for utiliza esse iterador para acessar cada elemento e colocar esse valor na variável especificada (no seu caso, elemento).
+
+Posso colocar outro nome no lugar de elemento?
+Sim, você pode colocar qualquer nome que desejar na variável! A palavra elemento é apenas um nome que você escolheu para representar os valores do array enquanto o loop percorre a coleção.
+
+Aqui está o exemplo com um nome diferente, digamos numero:

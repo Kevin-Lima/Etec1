@@ -1,0 +1,93 @@
+Sistemas Embarcados 
+
+O que é Arduino?
+
+. Uma placa de prototipagem (não é uma placa final) de projetos eletrônicos.
+ 
+. Uma plataforma eletrônica que consiste de um cículo contendo um microprocessador (da família AVR) configurado para facilitar a programação e controle de entradas e saídas.
+
+. Criado para facilitar o uso da eletrônica por estudantes.
+
+. Open Hardware - circuito pode ser montado e vendido sem precisar pagar Royalties.
+
+. Existe vários tipos de arduino: Uno, Leonardo, MEGA, Pro Mini, Pro Micro, Lilypad e Nano.
+
+
+Estrutura do Arduino (está no word) - Aprender de cabeça portas digitais e analógicas e o que o botão de reset faz.
+
+
+
+O arduino que mais iremos utilizar é o UNO
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Microcontrolador
+
+. Pequeno controlador contido em um chip
+
+. O arduino é um circuito que da suporte ao microcontrolador (que é quem faz todo trabalho).
+
+. Os arduinos usam microcontroladores da arquitetura AVR fabricado pela ATMel. Os mais usados são d série ATMega e ATTiny.
+
+. Um Arduíno é um microcontrolador de plana única e um conjunto de software para programá-lo. O hardware consiste em um projeto simples de hardware livre para o controlador com um processador Atmel AVR e suporte embnutido de entrada/saída. O software consiste de uma linguagem de programação padrão e do bootloader que roda na placa.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Manuseio de PLacas
+
+. Não ficar pegando a placa com os dedos nas trilhas, por baixo ou por cima.
+
+. Sempre usem as bordas ou o suporte azul na parte de cima para segurá-la.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Tensão Elétrica
+
+. A tensão elétrica ou diferença de potencial (ddp) é a quantidade de energia gerada por pilhas ou baterias e move cargas elétricas para o restante do circuito elétrico, sendo disso uma importância para o funcionamento dos circuitos.
+Ela e medida em Volt e calculada por meio da primeira lei de Ohm.
+
+. É comumentemente chamada de ddp (diferença de potencial elétrico)
+. Unidade da medida da tensão elétrica é Volt representad por V, em homenagem a Alessandrto Volta
+. Podemos calcular a tensão eletrica de diversas formas.
+. A tensão elétrica e uma grandeza física que mensura diferença de potencial elétrico entre dois pontos de um circuito elétrico.
+
+Fórmula
+
+.U=r*i
+U tensao eletrica em volt V
+R resistencia eletrica em Ohm
+I corrente eletrica Ampere
+
+EXEMPLO
+. Um resistor ohmico de resistencia eletrica igual a 10,0  é  a travessado por uma corrente eletrica de 15 A. Determine a tensao que se relaciona com a resistencia e corrente elétricas;
+  U = R*i
+  U = 10 - 15
+  U = 150 V
+
+MULTÍMETRO
+. Multímetro é o aparelho utilizado para medir corrente elétrica, tensão contínua, tensão alternada e resisteência elétrica;
+. A grandeza a ser medida é escolhida utilizando a chave seletora localizada abaixo do painel;
+. A grande diferença do multímetro digital para o analogico é a obtenção direta do valor da grandeza a ser medida.
+
+. Cabo vermelho:
+ ligar no V para se medir resistência e tensão;
+ ligar no mA para se medir corrente;
+. Cabro preto:
+ ligar sempre no COM;
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+PROJETO ARDUÍNO
+. O projeto arduíno se iniciou na Iália, mais precisamente na cidade de Ivrea no ano de 2005. A ideia foi juntar numa única placa, um microcontrolador com comunicação serial (as placas que utilizam entradas USB são conversores) sem a
+ necessidade de um gravador e ainda com fácil programação
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+GRANDEZAS DIGITAIS E ANALÓGICAS
+. As grandezas digitais são aquelas que poder ser definidas por meio de saltos entre valores bem definidos dentro de uma faixa de valores.
+. As grandesas analógicas são aquelas que ao contrário das grandezas digitais podem assumir infinitos valores de uma amplitude dentron de uma faixa de valores.
+
+. Sinal analógico é
+
+. Os circuitos e equipamentos elétricos ditos digitais trabalham com apenas dois níveis de tensão difinidos. No caso do Arduino UNO, estes são:
+ Um nível lógico alto, correspondente a 5V;
+ Um nível lógico baixo, correspondente a 0V.
+. OS conversores analogico-digital do arduino UNO possuem uam resolução de 10 bits e o intervalo de tensão no qual são realizadas as discretizações (degraus da escada) é de 0 a 5V, ou seja, este intervalo será dividido em 1024 pedaços
+ (2¹0, onde 10 é a resolução do conversor), de forma que, o valor atribuído à tensão presente em um determinado pino sera o valor discreto (um dos 1024 valores) mais próximo da mesma.

@@ -1,0 +1,7 @@
+fun main(args: Array<String>){
+	val lista = listOf(1,2,3,4)
+    
+    for(i in lista){
+        println("Intem: $i")
+    }
+}

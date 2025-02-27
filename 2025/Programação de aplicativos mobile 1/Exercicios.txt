@@ -1,0 +1,68 @@
+
+fun main() {
+	
+    println("Exercicio 1: ")
+   	 	EX1()
+        println()
+    println("Exercicio 2: ")
+    	EX2()
+        println()
+    println("Exercicio 3: ")
+    	EX3()
+        println()
+    EX4()
+        println()
+    EX5()
+        println()
+    EX6()
+}
+
+
+fun EX1() {
+    val nome = "nome"
+    println("oi " + nome)
+}
+
+fun EX2() {
+    //criando a variavel nome e atribuindo "nome" para ela
+    val nome = "nome"
+    
+    //imprimindo uma mensagem "oi" e o valor que tem na variavel nome
+    println("oi " + nome)
+}
+
+fun EX3() {
+    val soma = 2 + 2
+    val subtracao = 2 - 2
+    val divisao = 2 / 2
+    val multiplicacao = 2 * 2
+
+    println("Soma: $soma")
+    println("Subtração: $subtracao")
+    println("Divisão: $divisao")
+    println("Multiplicação: $multiplicacao")
+}
+
+fun EX4() {
+  	val base = 3
+    val altura = 7
+    
+    val resultado = base * altura
+    
+    println(resultado)
+}
+
+fun EX5() {
+  	val string = "string"
+    
+    println(string)
+}
+
+fun EX6() {
+    val arrayint: Array<Int> = arrayOf(1, 2, 3, 4)
+    
+    // Percorrendo o array com o loop for
+    for (elemento in arrayint) {
+        println(elemento)
+    }
+}

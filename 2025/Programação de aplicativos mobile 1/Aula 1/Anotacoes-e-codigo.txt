@@ -1,0 +1,39 @@
+var - é mutavel, ela pode mudar o valor. Ex: var resultado = x + y
+
+val = é imutavel e ela não muda. Entao se eu declarar - val ano = 15, vai ser 15 ate o final do codigo 
+
+
+codigo:
+
+fun main() {
+    /* 
+     * Comentario
+    */
+    val base = 3
+    val altura = 7
+    
+    val resultado = base * altura
+    
+    println(resultado)
+    
+    val nomeUsuario = "ETEC ZONA LESTE"
+    val saudacao = "Bem-vindo, $nomeUsuario"
+    
+    println(saudacao)
+    
+    
+    
+
+}
+
+fun main(args: Array<String>){
+    
+    val b1 = true
+    val b2 = false
+    val c1 = b1.and(b2)//Retorno sera false
+    val c2 = b1.or(b2)//Retorno sera true
+    val c3 = b1.not()//Retorno sera false
+    println("$c1 $c2 $c3")
+    
+}
+
