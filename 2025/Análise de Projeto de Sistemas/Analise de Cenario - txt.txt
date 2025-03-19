@@ -1,0 +1,90 @@
+Cenário 1: Sistema de Gerenciamento de Estoque para uma Loja de Roupas
+Regras de Negócio:
+• RN01: Cada peça cadastrada no sistema deve conter informações como marca, modelo e preço.
+• RN02: O sistema deve registrar toda venda e atualizar o estoque automaticamente.
+• RN03: Quando uma peça atingir menos de 5 unidades, um alerta de reposição deve ser emitido.
+• RN04: Apenas funcionários autorizados podem editar ou remover peças do estoque.
+• RN05: O sistema deve gerar relatórios semanais de vendas e estoque.
+Requisitos Funcionais:
+• RF01: O sistema deve permitir o cadastro e edição de peças de roupa.
+• RF02: O sistema deve registrar a entrada e saída de peças no estoque.
+• RF03: O sistema deve gerar relatórios detalhados sobre vendas.
+• RF04: O sistema deve permitir que funcionários busquem produtos pelo nome ou código.
+• RF05: O sistema deve permitir a exclusão de peças que não estão mais disponíveis.
+Requisitos Não Funcionais:
+• RNF01: O sistema deve ser acessível por dispositivos móveis e computadores.
+• RNF02: O sistema deve possuir interface intuitiva para facilitar o uso pelos funcionários.
+• RNF03: O sistema deve realizar backups diários para evitar perda de dados.
+
+Cenário 2: Aplicativo de Agendamento para um Salão de Beleza
+Regras de Negócio:
+• RN01: O agendamento só pode ser feito dentro do horário de funcionamento do salão.
+• RN02: O aplicativo deve enviar lembretes automáticos para clientes.
+• RN03: O sistema deve permitir cancelamentos até 2 horas antes do horário agendado.
+• RN04: O pagamento online deve ser confirmado antes da finalização do serviço.
+• RN05: O sistema deve armazenar o histórico de serviços de cada cliente.
+Requisitos Funcionais:
+• RF01: O aplicativo deve permitir o cadastro de clientes.
+• RF02: O aplicativo deve permitir a escolha de serviços e horários disponíveis.
+• RF03: O aplicativo deve permitir pagamentos via cartão de crédito e débito.
+• RF04: O aplicativo deve permitir que clientes cancelem ou remarquem agendamentos.
+• RF05: O aplicativo deve gerar relatórios de agendamentos por período e serviço.
+Requisitos Não Funcionais:
+• RNF01: O aplicativo deve ser responsivo e funcionar em celulares e tablets.
+• RNF02: O aplicativo deve garantir a proteção de dados dos clientes.
+• RNF03: O aplicativo deve carregar as informações em menos de 2 segundos.
+Cenário 3: Plataforma de E-commerce para uma Loja de Artesanato
+Regras de Negócio:
+• RN01: Cada produto cadastrado deve ter fotos, descrição e preço.
+• RN02: O frete deve ser calculado automaticamente pelo CEP do cliente.
+• RN03: O pagamento deve ser confirmado antes do envio do produto.
+• RN04: A plataforma deve enviar notificações por e-mail sobre compras e entregas.
+• RN05: O vendedor pode atualizar o status do pedido (ex: em processamento, enviado).
+Requisitos Funcionais:
+• RF01: A plataforma deve permitir o cadastro de produtos.
+• RF02: A plataforma deve permitir a compra de produtos online.
+• RF03: A plataforma deve permitir pagamentos via boleto, Pix e cartão de crédito.
+• RF04: A plataforma deve calcular o frete automaticamente.
+• RF05: A plataforma deve enviar notificações de compra e entrega.
+Requisitos Não Funcionais:
+• RNF01: A plataforma deve ter um design simples e intuitivo.
+• RNF02: A plataforma deve ser segura e proteger os dados dos usuários.
+• RNF03: A plataforma deve suportar um grande volume de acessos simultâneos.
+
+Cenário 4: Sistema de Gerenciamento de Clientes para uma Empresa de Consultoria
+Regras de Negócio:
+• RN01: Cada cliente cadastrado deve ter nome, contato e histórico de projetos.
+• RN02: O sistema deve armazenar reuniões agendadas e permitir notificações.
+• RN03: Somente usuários autorizados podem editar informações dos clientes.
+• RN04: O sistema deve gerar relatórios de clientes e projetos.
+• RN05: O sistema deve permitir anexar documentos aos cadastros dos clientes.
+Requisitos Funcionais:
+• RF01: O sistema deve permitir o cadastro e consulta de clientes.
+• RF02: O sistema deve permitir o registro de reuniões e projetos.
+• RF03: O sistema deve permitir o upload de documentos importantes.
+• RF04: O sistema deve permitir a busca rápida por clientes e projetos.
+• RF05: O sistema deve gerar relatórios de clientes atendidos e projetos em andamento.
+Requisitos Não Funcionais:
+• RNF01: O sistema deve ter acesso restrito por login e senha.
+• RNF02: O sistema deve realizar backups automáticos dos dados.
+• RNF03: O sistema deve ter um layout simples e organizado.
+
+
+Cenário 5: Aplicativo de Delivery de Comida para um Restaurante
+Regras de Negócio (RN):
+•	RN01: Apenas clientes cadastrados podem fazer pedidos no aplicativo.
+•	RN02: O restaurante só aceita pedidos dentro do horário de funcionamento (por exemplo, das 11h às 23h).
+•	RN03: O pagamento deve ser feito pelo aplicativo, usando cartão de crédito, débito ou PIX.
+•	RN04: O cliente pode cancelar o pedido apenas antes de ele entrar no status "Em Preparação".
+•	RN05: Se um item estiver em falta, o cliente deve ser avisado antes de finalizar a compra.
+Requisitos Funcionais (RF):
+•	RF01: O cliente pode criar uma conta e fazer login no aplicativo.
+•	RF02: O aplicativo deve exibir o cardápio com fotos, preços e descrições dos pratos.
+•	RF03: O cliente pode adicionar ou remover itens do carrinho antes de confirmar o pedido.
+•	RF04: O status do pedido deve ser atualizado em tempo real (exemplo: "Recebido", "Em Preparação", "Saiu para Entrega", "Entregue").
+•	RF05: O aplicativo deve enviar notificações ao cliente sobre o andamento do pedido.
+Requisitos Não Funcionais (RNF):
+•	RNF01: O aplicativo deve ser rápido, carregando cada página em até 2 segundos.
+•	RNF02: O design deve ser responsivo, funcionando bem em celulares e tablets.
+•	RNF03: As informações dos clientes e dos pedidos devem ser protegidas com criptografia.
+
