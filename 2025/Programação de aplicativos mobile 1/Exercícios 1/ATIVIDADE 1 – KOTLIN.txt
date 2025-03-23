@@ -1,0 +1,34 @@
+ATIVIDADE 1 – KOTLIN
+
+Função main()
+Essa função é onde o código começa. Eu crio as chamadas para as outras funções, tipo ex1, ex2, ex3, e por aí vai, e coloco uma mensagem dizendo de qual exercício se trata antes de cada execução. Assim, fica organizado e eu sei o que está acontecendo em cada parte do código.
+ 
+Função ex1()
+Aqui eu crio uma variável chamada nome e atribuo o valor "nome" a ela. Depois, uso o println() pra imprimir "Oi nome". O que vai aparecer na tela é "Oi nome" porque estou usando interpolação de strings, onde o valor da variável nome entra na frase.
+ 
+Função ex2()
+Funciona do mesmo jeito que o ex1(), mas dessa vez tem uns comentários explicando o que está acontecendo. Eu crio a variável nome com "nome" e imprimo "Oi nome". O código é praticamente o mesmo, só com explicações extras.
+ 
+Função ex3()
+Aqui faço algumas operações simples com o número 2. Eu faço soma, subtração, multiplicação e divisão, e guardo o resultado de cada operação em uma variável. Depois, imprimo esses resultados. É só um jeito de ver como fazer cálculos simples e exibir o resultado em Kotlin.
+ 
+Função ex4()
+Essa é para calcular a área de um retângulo. Eu defino a base como 3 e a altura como 7, e faço a multiplicação de base * altura pra encontrar a área. Depois, imprimo o resultado. Bem simples e útil quando for fazer esse tipo de cálculo.
+ 
+Função ex5()
+Aqui crio uma variável chamada string e dou a ela o valor "string". Depois, imprimo essa variável. Isso é só pra lembrar como criar uma variável do tipo texto (String) e como imprimir seu valor.
+ 
+Função ex6()
+Crio um array com os números 1, 2, 3 e 4 e depois uso um loop for pra percorrer esse array e imprimir cada número. O for vai passar por cada elemento da lista e vai imprimindo um de cada vez. É só pra treinar como usar arrays e fazer loops.
+ 
+Função ex7()
+Aqui, crio uma lista mutável com os números de 1 a 4. Depois, uso o método add() para adicionar os números 5 e 6 à lista. O código imprime a lista antes e depois das adições pra eu ver como a lista muda. Esse exemplo é bom pra aprender a manipular listas em Kotlin.
+ 
+Função ex8()
+Essa função simula um teste de senha. Eu defino a senha correta como "123" e depois crio uma lista com tentativas de senha. O for percorre todas as tentativas e, se a senha for a correta, ele imprime "Acesso autorizado". Caso contrário, imprime "Senha incorreta". Isso é útil quando eu precisar validar alguma coisa em várias tentativas.
+ 
+Função ex9()
+Aqui, comparo dois números: 10 e 50. Eu uso o if pra verificar se 10 é maior que 50. Se for, ele vai imprimir que 10 é maior. Como não é o caso, ele imprime que 10 é menor. O if ajuda a tomar decisões no código com base em condições.
+ 
+Função ex10()
+Essa função faz um loop que vai de 1 até 10 e imprime cada número. O for vai automaticamente de 1 a 10 e imprime o valor de cada iteração. O in define o intervalo, e o loop vai repetindo a ação até atingir o final do intervalo. Uma maneira fácil de repetir algo várias vezes.
