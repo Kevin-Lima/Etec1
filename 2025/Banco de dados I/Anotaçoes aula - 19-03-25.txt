@@ -1,0 +1,18 @@
+atributos muilti valorados = quando um atributo tem dois valores diferentes
+
+oq esta em negrito ou sublinado é a chave principal = ► Cliente (cpf(negrito ou sublinado), nome, rua, bairro, cidade, estado)
+
+todo relacionamento que tem atributo VAI VIRAR UMA TABELA
+
+binario = relacionamentos de dois unidades. ternario = relacionamento de tres entidades. ai vai ate o infinito
+
+esudar chave primaria chave estrangeira e chave composta
+
+chave:
+Grupo (CodGrup (chave primaria),Nome)
+ Empresa (CodGrup,NoEmpresa(chave primaria) (o CodGrup com o NoEmpresa juntas viram chave composta, que é o que acontece),Nome)
+ Empregado (CodGrup,NoEmpresa,NoEmpreg,Nome)
+ Dependente (CodGrup,NoEmpresa,NoEmpreg,NoSeq,Nome)
+
+Exercícios  de Fixação - Pontuando --- slide 26
+

@@ -1,8 +1,8 @@
-package com.mycompany.exercicios_metodos;
+package com.mycompany.funcional;
 
 import javax.swing.JOptionPane;
 
-public class Ex4 {
+public class Funcional {
     public static void main (String[] args) {
         // Definindo os números que vamos usar nas operações (aqui são fixos, mas podem mudar depois)
         int n1;

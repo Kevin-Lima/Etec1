@@ -1,0 +1,115 @@
+fun main() {
+    print("Digite um valor: ")
+    val valor = readLine()?.toDoubleOrNull() ?: 0.0  // Le o valor do usuario, tenta converter para Double, e se der erro coloca 0.0
+
+    // Chama os 3 primeiros casos de decisão
+    caso1(valor)
+    caso2(valor)
+    caso3(valor)
+
+    // Define um array de tamanho fixo 6
+    val array = DoubleArray(6)
+
+    // Preenche o array com os valores do usuario
+    for (i in array.indices) {
+        print("Digite o valor para a posição [$i]: ")
+        array[i] = readLine()?.toDoubleOrNull() ?: 0.0  // Le o número e armazena como Double
+    }
+
+    // Executa os casos de repetiçao
+    caso4(array)
+    caso5(array)
+    caso6(array)
+
+    print("Digite um valor: ")
+    val n1 = readLine()?.toDoubleOrNull() ?: 0.0  // Le o valor do usuario, tenta converter para Double, e se der erro coloca 0.0
+
+    print("Digite outro valor: ")
+    val n2 = readLine()?.toDoubleOrNull() ?: 0.0  // Le o valor do usuario, tenta converter para Double, e se der erro coloca 0.00
+
+    // Chama os casos de operaçao
+    caso7(n1, n2)
+    caso8(n1, n2)
+    caso9(n1, n2)
+    caso10(n1, n2)
+}
+
+// Caso 1: Verifica se o número é maior que 10
+fun caso1(valor: Double) {
+    if (valor > 10) {
+        println("O valor é maior que 10")
+    } else {
+        println("O valor é menor ou igual a 10")
+    }
+}
+
+// Caso 2: Verifica valores especificos
+fun caso2(valor: Double) {
+    when (valor) {
+        1.0 -> println("O valor é 1.0")
+        2.0 -> println("O valor é 2.0")
+        else -> println("Outro valor")
+    }
+}
+
+// Caso 3: Mostra os números de 1 até o valor digitado
+fun caso3(valor: Double) {
+    // O valor é convertido para Int porque o range (1..valor) não funciona com Double
+    // O "toInt()" vai arredondar o valor para baixo, ou seja, se o valor for 5.7, ele vai se tornar 5
+    for (i in 1..valor.toInt()) {  // Converte o valor para Int para usar no range
+        println("Número: $i")
+    }
+}
+
+// Caso 4: Mostra todos os elementos do array
+fun caso4(array: DoubleArray) {
+    println("\nElementos do array:")
+    for (elemento in array) {
+        print("$elemento ")
+    }
+    println() // Pula linha no final
+}
+
+// Caso 5: Mostra o sexto número do array
+fun caso5(array: DoubleArray) {
+    println("\nO sexto número do array é: ${array[5]}")
+}
+
+// Caso 6: Exibe os números do array usando WHILE
+fun caso6(array: DoubleArray) {
+    println("\nExibindo os números do array com WHILE:")
+
+    var i = 0
+    while (i < array.size) {
+        println("Elemento [$i]: ${array[i]}")
+        i++
+    }
+}
+
+// Caso 7: Soma - Funçao que realiza a soma de n1 e n2
+fun caso7(n1: Double, n2: Double) {
+    val soma = n1 + n2  // Faz a soma
+    println("A soma de $n1 e $n2 é: $soma")
+}
+
+// Caso 8: Subtraçao - Funçao que faz a subtraçao de n1 e n2
+fun caso8(n1: Double, n2: Double) {
+    val subtracao = n1 - n2  // Faz a subtração
+    println("A subtração de $n1 e $n2 é: $subtracao")
+}
+
+// Caso 9: Multiplicaçao - Funçao que Faz a multiplicaçao de n1 e n2
+fun caso9(n1: Double, n2: Double) {
+    val multiplicacao = n1 * n2  // Faz a multiplicação
+    println("A multiplicação de $n1 e $n2 é: $multiplicacao")
+}
+
+// Caso 10: Divisao - Função que faz a divisao de n1 por n2
+fun caso10(n1: Double, n2: Double) {
+    if (n2 != 0.0) {  // Verifica se n2 nao é zero (pra evitar divisão por zero)
+        val divisao = n1 / n2  // Realiza a divisao
+        println("A divisão de $n1 por $n2 é: $divisao")
+    } else {
+        println("Não é possível dividir por zero.")  // Mensagem de erro caso n2 seja zero
+    }
+}

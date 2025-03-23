@@ -1,0 +1,28 @@
+fun main(args: Array<String>) {
+    val senha = "123"
+    if(senha == "123"){
+        print("Acesso Concedido")
+    }
+    else {
+        println("Senha incorreta")
+    }
+
+    println()
+
+    val a = 10
+    val b = 5
+
+    if(a > b){
+        println("$a é maior que $b")
+    }
+
+    val x = 1
+    when(x){
+        1 -> print("x == 1")
+        2 -> print("x == 2")
+
+        else ->{
+            print("x possui outro valor")
+        }
+    }
+}
